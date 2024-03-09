@@ -1,0 +1,44 @@
+body {
+  background: #EAEAEA;
+}
+
+header{
+  background: white;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post {
+  background-color: white;
+  margin-top: 40px;
+  box-shadow: 2px 2px 5px rgb(168, 166, 166);
+
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .post h2,
+ .post span,
+ .post p {
+  padding: 15px 15px 15px;
+  margin: 0; 
+ }
+
+span {
+  color: rgb(200, 200, 200);
+}
+
+img {
+  width: 100%;
+}
